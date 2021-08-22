@@ -5,7 +5,18 @@
 	font-weight: normal;
 	transition: all 0.3s;
   }
-  
+  h1 {
+	  color: white;
+	  font-weight: bold;
+	  font-size: 2rem;
+	  position: absolute;
+	  left: 1010px;
+	  top: 10%
+  }
+
+  h1:hover {
+	  opacity: 90%;
+  }
   body {
 	padding: 0;
 	margin: 0;
@@ -57,4 +68,10 @@
   .output .current-operand {
 	color: white;
 	font-size: 2.5rem;
+  }
+
+  @media screen and (max-width: 2000px) {
+	  h1 {
+		left: 680px;
+	  }
   }
